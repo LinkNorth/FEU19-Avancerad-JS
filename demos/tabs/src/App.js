@@ -56,8 +56,10 @@ class About extends React.Component {
 
 class Contact extends React.Component {
   render() {
-    return <h1>Contact</h1>
-  }
+    return <div>
+      <h1>Contact</h1>
+    </div>
+  }   
 }
 
 export default App;
