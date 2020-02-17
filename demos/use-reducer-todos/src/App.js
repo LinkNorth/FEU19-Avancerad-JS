@@ -49,12 +49,6 @@ function reducer(state, action) {
   }
 }
 
-const newState = reducer({ 
-  todos: []
-}, {
-  type: "add_todo",
-  content: "Klippa gräset",
-});
 
 function App() {
   const [state, dispatch] = useReducer(reducer, { todos: [], content: "" });
