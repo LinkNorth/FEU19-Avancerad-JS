@@ -16,12 +16,6 @@ function reverseString(str) {
   return characters.join("");
 }
 
-/**
- * Returns true if x is greater than a and lesser than b
- * and returns false otherwise.
- *
- * a, b and x must all be integers.
- */
 function isBetween(a, b, x) {
   if (!Number.isInteger(a)) {
     throw new Error("'a' must be an integer!");
