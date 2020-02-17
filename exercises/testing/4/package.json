@@ -1,0 +1,14 @@
+{
+  "name": "4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^7.0.1",
+    "nyc": "^15.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm run test"
+  }
+}
