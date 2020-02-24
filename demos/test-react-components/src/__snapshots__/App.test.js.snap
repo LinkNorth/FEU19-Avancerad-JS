@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <h1>
+    List example
+  </h1>
+  <ul
+    className="List"
+  >
+    <li>
+      Item 1
+    </li>
+    <li>
+      Item 2
+    </li>
+    <li>
+      Item 3
+    </li>
+  </ul>
+  <h1>
+    Counter example
+  </h1>
+  <button
+    onClick={[Function]}
+  >
+    Increment
+  </button>
+  <p>
+    Current value is: 
+    0
+  </p>
+</div>
+`;
